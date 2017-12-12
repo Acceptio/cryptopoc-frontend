@@ -1,0 +1,27 @@
+%default-button {
+  padding: 5px 14px;
+  border-radius: 15px;
+}
+
+.ap-new-contract {
+  @extend %default-button;
+  border: 1px solid #DDDDDD;
+  color: #337AB7;
+  background-color: #FFFFFF;
+  &:hover {
+    color: #23527C;
+    background-color: #EEEEEE;
+  }
+}
+
+.ap-verify {
+  @extend %default-button;
+  color: #A94442;
+  background-color: #F2DEDE;
+  border: 1px solid #D43F3A;
+  &:hover {
+    color: #FFFFFF;
+    background-color: #C9302C;
+    border-color: #AC2925;
+  }
+}

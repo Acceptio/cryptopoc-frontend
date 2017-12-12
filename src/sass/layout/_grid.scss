@@ -1,0 +1,11 @@
+.ap-mb-20 {
+  @include margin(null, null, 20px, null);
+}
+
+.ap-mt-20 {
+  @include margin(20px, null, null, null)
+}
+
+.ap-mt-50 {
+  @include margin(50px, null, null, null)
+}
